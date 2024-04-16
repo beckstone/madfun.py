@@ -1,0 +1,12 @@
+# Working with numeric functions
+# Fun with Python
+# by Rebecca A. Stone
+# 04.15.24
+
+import math 
+
+number = input("Please pick a decimal number ") # user picks a decimal number
+answer = eval(number)
+print("The absolute value of", number, "is", abs(answer)) # computer outputs the absolute value of that number
+print(number, "rounded to 0 decimal places is ", round(answer)) # computer rounds up and displays the rounded up value of that number
+print("The square root of the rounded number", number+"'s absolute value is", math.sqrt(abs(round(answer,0)))) # computer outputs the square root value of that number
